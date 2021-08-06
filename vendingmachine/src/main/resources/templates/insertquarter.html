@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Insert Quarter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" th:href="@{css/main.css}" />
+    
+</head>
+<body>
+<div align="center">
+    <h1>Insert Quarter</h1>
+    <form action="#" th:action="@{/insertQuarter}" method="post" th:object="${coin}">
+        <label>Insert Quarter:</label>
+        <input type="text" th:field="*{quarter}" /><br/>
+
+        <button type="submit">Insert Quarter</button>    
+    </form>
+</div>
+</body>
+</html>

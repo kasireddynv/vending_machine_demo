@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>Item</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" th:href="@{css/main.css}" />
+
+</head>
+<body>
+	<div align="center">
+		    
+		<div>
+
+			<table class ="tablecss">
+				<tr>
+					<th><form action="#" th:action="@{/dispenseSoda}"
+							method="post">
+							                 
+							<button type="submit">Dispense SODA</button>
+						</form></th>
+
+					<th><a href="/removequarter">Remove Quarter</a>  </th>
+				</tr>
+			</table>
+			       
+		</div>
+	</div>
+</body>
+</html>

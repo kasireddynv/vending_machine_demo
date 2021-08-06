@@ -1,0 +1,23 @@
+body {
+  background-color:green;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.header {
+  padding: 0px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  font-size: 30px;
+}
+
+.tablecss { 
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
